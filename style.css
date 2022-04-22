@@ -1,0 +1,97 @@
+body {
+    position: absolute;
+    width: 709px;
+    height: 105px;
+    left: 361px;
+    top: 11px;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 128px;
+    color: #000000;
+
+}
+
+
+header{
+
+        background-color: #F5DBC3;
+        position: absolute;
+        width: 1930px;
+        height: 149px;
+        left: -9px;
+        top: -75px;
+    
+        /* One Piece Treasury */
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 135px;
+        position: absolute;
+        text-align: center;
+}
+
+nav {
+    background-color: #2C2208;
+   }
+   nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    
+    
+    /* Rectangle 4 */
+position: absolute;
+width: 1920px;
+height:65px;
+left: 0px;
+top: 125px;
+background: #2C2208;
+}
+
+nav > ul > li {
+    position: relative;
+    
+   }
+
+
+nav ul ul {
+    position: absolute;
+    display: block;
+    background-color: #2C2208;
+    padding: 0;
+    width: 100%;
+   }
+
+   nav ul ul {
+    position: absolute;
+    display: none;
+    background-color: #2C2208;
+    padding: 0;
+    width: 100%;
+   }
+
+   nav > ul > li:hover ul {
+    display: block;
+
+}
+
+li {
+    color:white
+}
+
+nav ul ul {
+    position: absolute;
+    background-color: #2C2208;
+    padding: 0;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+   }
+   nav > ul > li:hover ul {
+    opacity: 1;
+   }
