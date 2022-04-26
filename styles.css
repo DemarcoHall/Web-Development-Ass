@@ -6,13 +6,13 @@ body {
     font-size: 40px;
 
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-        "header header header "
-        "nav nav nav "
-        "main main main "
-        "footer footer footer ";
+        "header header header header "
+        "nav nav nav nav "
+        "main main main main "
+        "footer footer footer footer ";
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     right: 0px;
     left: 0px;
     top: 0px;
-    /* One Piece Treasury */
+    /* One Piece Treasury  */
     font-family: 'Pirata One', cursive;
     font-style: normal;
     font-weight: 400;
@@ -36,18 +36,17 @@ header {
 nav {
     grid-area: nav;
     width: 100%;
-    /* Rectangle 4 */
+    /* / Rectangle 4 */
 
 
-    position: relative;
+    position: fixed;
     height: 74px;
-    width: auto;
+    width: 1920px;
     top: 127px;
     right: 0px;
     left: 0px;
 
     background: #2C2208;
-
 }
 
 ul {
@@ -63,16 +62,15 @@ li {
     display: flex;
     justify-content: space-around;
 }
-
 .topcenter {
     float: none;
     position: fixed;
     top: 19%;
     width:5%;
-    left: 15%;
+    left: 20%;
     font-size: 35px;
     transform: translate (-50%, -50%);
-
+    text-decoration: underline;
 }
 
 .topcenter2 {
@@ -80,9 +78,10 @@ li {
     position:fixed;
     top: 19%;
     width: 10%;
-    left: 25%;
+    left: 30%;
     font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 .topcenter3 {
@@ -90,9 +89,10 @@ li {
     position:fixed;
     top: 19%;
     width: 15%;
-    left: 35%;
+    left: 40%;
     font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 .topcenter4 {
@@ -100,9 +100,10 @@ li {
     position:fixed;
     top: 19%;
     width: 20%;
-    left: 45%;
+    left: 50%;
     font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 .topcenter5 {
@@ -110,9 +111,10 @@ li {
     position:fixed;
     top: 19%;
     width:25%;
-    left: 55%;
+    left: 60%;
     font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 li a {
@@ -125,7 +127,7 @@ li a {
     padding: 16px;
 }
 
-
+/* index */
 main {
     grid-area: main;
     color: black;
@@ -137,10 +139,8 @@ main {
     width: 300px;
     border-radius: 125px;
     float: left;
-    height: auto;
+    height: 50%;
     padding: 5%;
-
-
 }
 
 .intro {
@@ -149,19 +149,68 @@ main {
     font-size: 35px;
     margin: auto;
 }
-
 .name {
     top: 50%;
+    font-size: 40px;
 }
 
+.text{
+    top:50%;
+    font-size: 20px;
+}
+/* portfolios */
+.portfolio-HTML-CSS {
+    top: 1000px;
+    width: 400px;
+    display: block;
+    height: 150px;
+    margin: 8px;
+    float: left;
+}
 
+.HTMLPic{
+    font-size: 35px;
+}
+
+.Two{
+    font-size: 30px;
+}
+ /* contacts */
+.contact{
+    justify-content: center;
+    align-items: center;
+}
+
+ .icons {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    float: left;
+    top: 10%;
+    width: 60px;
+}
+.contact .textlogo {
+    float: left;
+    top: 1000%;
+    width:100px;
+}
+
+.contactform {
+    position: fixed;
+    height: 150px;
+    float: right;
+    text-align: center;
+    width: 45%;
+}
+
+.input{
+    padding: 40px;
+}
 
 footer {
     grid-area: footer;
     bottom: auto;
     color: black;
-    position:relative; left: 0px; top: 175px;
-    
+    position:relative; left: 0px; top: 275px;
+
 }
-
-
