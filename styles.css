@@ -6,13 +6,13 @@ body {
     font-size: 40px;
 
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-        "header header header "
-        "nav nav nav "
-        "main main main "
-        "footer footer footer ";
+        "header header header header "
+        "nav nav nav nav "
+        "main main main main "
+        "footer footer footer footer ";
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     right: 0px;
     left: 0px;
     top: 0px;
-    /* One Piece Treasury */
+    /* Enrique's Portfolio  */
     font-family: 'Pirata One', cursive;
     font-style: normal;
     font-weight: 400;
@@ -35,19 +35,21 @@ header {
 
 nav {
     grid-area: nav;
-    width: 100%;
-    /* Rectangle 4 */
-
-
-    position: relative;
-    height: 74px;
-    width: auto;
+    /* / Rectangle 4 */
+    position: static;
+    height: 60px;
+    width: 1341px;
     top: 127px;
     right: 0px;
     left: 0px;
 
     background: #2C2208;
+}
 
+.navdet{
+    font-size: 35px;
+    min-height: 200px;
+    height: 200px; 
 }
 
 ul {
@@ -63,56 +65,54 @@ li {
     display: flex;
     justify-content: space-around;
 }
-
 .topcenter {
     float: none;
-    position: fixed;
-    top: 19%;
+    position: relative;
+    top: 120px;
     width:5%;
-    left: 15%;
-    font-size: 35px;
+    left:15%;
     transform: translate (-50%, -50%);
-
+    text-decoration: underline;
 }
 
 .topcenter2 {
     float: none;
-    position:fixed;
-    top: 19%;
+    position: relative;
+    top: 43px;
     width: 10%;
     left: 25%;
-    font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 .topcenter3 {
     float: none;
-    position:fixed;
-    top: 19%;
+    position: relative;
+    top: -33px;
     width: 15%;
     left: 35%;
-    font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 .topcenter4 {
     float: none;
-    position:fixed;
-    top: 19%;
+    position: relative;
+    top: -110px;
     width: 20%;
     left: 45%;
-    font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 .topcenter5 {
     float: none;
-    position:fixed;
-    top: 19%;
+    position: relative;
+    top: -185px;
     width:25%;
     left: 55%;
-    font-size: 35px;
     transform: translate (-50%, -50%);
+    text-decoration: underline;
 }
 
 li a {
@@ -125,7 +125,7 @@ li a {
     padding: 16px;
 }
 
-
+/* index */
 main {
     grid-area: main;
     color: black;
@@ -137,31 +137,109 @@ main {
     width: 300px;
     border-radius: 125px;
     float: left;
-    height: auto;
+    height: 50%;
     padding: 5%;
-
-
 }
 
 .intro {
     top: 70%;
     width: 80%;
     font-size: 35px;
-    margin: auto;
+    margin: 100px;
 }
-
 .name {
     top: 50%;
+    font-size: 40px;
+}
+
+.text{
+    top:50%;
+    font-size: 20px;
+}
+/* portfolios */
+.portfolio-HTML-CSS {
+    top: 1000px;
+    width: 400px;
+    display: block;
+    height: 150px;
+    margin: 8px;
+    float: left;
+}
+
+.HTMLPic{
+    font-size: 35px;
+}
+
+.Two{
+    font-size: 30px;
+}
+
+ /* contacts */
+.contact{
+    justify-content: center;
+    align-items: center;
+}
+
+ .icons {
+    position: relative;
+    min-width: none;
+    width: 60px;
+    min-height: 50px;
+    height: 60px;
+    display: flex;
+    float: left;
+    left: 15px;
+}
+
+.logos{
+    position: relative;
+    top: 50px;
+}
+.textlogo {
+    position: relative;
+    float: left;
+    top: 70px;
+    width:100px;
+    left: 30px;
+}
+
+.h4{
+    position: relative;
+    font-family: 'Pirata One';
+    min-height: -10px;
+    height: -10px;
+    font-size: 45px;
+}
+
+.contactform {
+    position: relative; left: -650px; top: -30px;
+    height: 0px;
+    float: right;
+    text-align: center;
+    width: 10%;
+    
+}
+
+.h3 {
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.span{
+    font-size: 20px;
+    
 }
 
 
+.input{
+    top: 0px;
+    min-height: 25px;
+    height: 70px; 
+}
 
 footer {
     grid-area: footer;
     bottom: auto;
     color: black;
-    position:relative; left: 0px; top: 175px;
-    
+    position:relative; left: 0px; top: 275px;
+
 }
-
-
