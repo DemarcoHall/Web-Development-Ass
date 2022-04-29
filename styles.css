@@ -70,7 +70,7 @@ li {
     position: relative;
     top: 120px;
     width:5%;
-    left:15%;
+    left:20%;
     transform: translate (-50%, -50%);
     text-decoration: underline;
 }
@@ -80,7 +80,7 @@ li {
     position: relative;
     top: 43px;
     width: 10%;
-    left: 25%;
+    left: 30%;
     transform: translate (-50%, -50%);
     text-decoration: underline;
 }
@@ -90,7 +90,7 @@ li {
     position: relative;
     top: -33px;
     width: 15%;
-    left: 35%;
+    left: 40%;
     transform: translate (-50%, -50%);
     text-decoration: underline;
 }
@@ -100,7 +100,7 @@ li {
     position: relative;
     top: -110px;
     width: 20%;
-    left: 45%;
+    left: 49%;
     transform: translate (-50%, -50%);
     text-decoration: underline;
 }
@@ -110,7 +110,7 @@ li {
     position: relative;
     top: -185px;
     width:25%;
-    left: 55%;
+    left: 60%;
     transform: translate (-50%, -50%);
     text-decoration: underline;
 }
@@ -226,7 +226,6 @@ main {
 }
 .span{
     font-size: 20px;
-    
 }
 
 
@@ -236,6 +235,88 @@ main {
     height: 70px; 
 }
 
+/* Blog */
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #F5DBC3;
+    float:right;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    
+  }
+
+  #rcorners2 {
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: left;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+  }
+
+  #rcorners3 {
+    position: relative;
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: right;
+    top: 100px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+  }
+
+  #rcorners4 {
+    position: relative;
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: left;
+    top: 100px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+  }
+
+
+
+  .copy{
+      font-size: 15px;
+  }
+/* SiteReport */
+
+.h2 {
+    position: relative;
+    font-size: 45px;
+    font-family: 'Pirata One';
+    text-decoration: underline;
+}
+
+.h6{
+    position: relative;
+    font-size: 25px;
+    font-family: 'Pirata One';
+}
+.rating {
+    font-size: 20px;
+    font-family: 'sans-serif';
+}
+.indexmockup{
+    position: relative;
+    width: 400px;
+}
+.portfoliomockup{
+    position: relative;
+    width: 400px;
+}
+.contactmockup{
+    position: relative;
+    width: 400px;
+}
+.blogmockup{
+    position: relative;
+    width: 400px;
+}
 footer {
     grid-area: footer;
     bottom: auto;
