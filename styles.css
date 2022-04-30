@@ -30,7 +30,7 @@ header {
     font-size: 100px;
     line-height: 135px;
     position: absolute;
-    text-align: center;
+    /* text-align: center; */
 }
 
 nav {
@@ -55,7 +55,6 @@ nav {
 ul {
     list-style-type: none;
     margin: 0;
-    overflow: hidden;
     background-color: #2C2208;
     font-size: larger;
 }
@@ -123,6 +122,10 @@ li a {
     text-decoration: none;
     color: white;
     padding: 16px;
+}
+
+.off{
+    display: none;
 }
 
 /* index */
