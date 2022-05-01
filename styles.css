@@ -70,7 +70,6 @@ li {
     top: 120px;
     width:5%;
     left:20%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -80,7 +79,6 @@ li {
     top: 43px;
     width: 10%;
     left: 30%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -90,7 +88,6 @@ li {
     top: -33px;
     width: 15%;
     left: 40%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -100,7 +97,6 @@ li {
     top: -110px;
     width: 20%;
     left: 49%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -110,7 +106,6 @@ li {
     top: -185px;
     width:25%;
     left: 60%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -185,7 +180,6 @@ main {
 
  .icons {
     position: relative;
-    min-width: none;
     width: 60px;
     min-height: 50px;
     height: 60px;
@@ -209,8 +203,7 @@ main {
 .h4{
     position: relative;
     font-family: 'Pirata One';
-    min-height: -10px;
-    height: -10px;
+    top: -10px;
     font-size: 45px;
 }
 
@@ -284,7 +277,7 @@ main {
 
 
   .copy{
-      font-size: 15px;
+      font-size: 14px;
   }
 /* SiteReport */
 
@@ -317,6 +310,10 @@ main {
     width: 400px;
 }
 .blogmockup{
+    position: relative;
+    width: 400px;
+}
+.success {
     position: relative;
     width: 400px;
 }

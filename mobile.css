@@ -111,7 +111,6 @@ li a {
     top: 0px;
     width: 0%;
     left: 0%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -122,7 +121,6 @@ li a {
     top: 0px;
     width: 0%;
     left: 0%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -133,7 +131,6 @@ li a {
     top: 0px;
     width: 0%;
     left: 0%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -144,7 +141,6 @@ li a {
     top: 0px;
     width: 0%;
     left: 0%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -155,7 +151,6 @@ li a {
     top: 0px;
     width: 0%;
     left: 0%;
-    transform: translate (-50%, -50%);
     text-decoration: underline;
 }
 
@@ -227,7 +222,6 @@ footer {
 
 .icons {
     position: relative;
-    min-width: none;
     top: 375px;
     width: 60px;
     min-height: 50px;
@@ -336,7 +330,7 @@ footer {
 
 
 .copy {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .h2 {
