@@ -1,0 +1,342 @@
+body {
+    font-family: 'Pirata One';
+    font-family: 'sans-serif';
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #F5DBC3;
+    position: relative;
+    width: auto;
+    right: 0px;
+    left: -10px;
+    top: -8px;
+    /* Enrique's Portfolio  */
+    font-family: 'Pirata One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 38px;
+    /* text-align: center; */
+}
+
+nav {
+    grid-area: nav;
+    display: none;
+    background-color: #2C2208;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+.shownav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    float: right;
+    border-top: 0.2em solid #2C2208;
+    border-bottom: 0.2em solid #2C2208;
+    border-radius: 0.1em;
+}
+
+.shownav:before {
+    content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-top: 0.2em solid #2C2208;
+}
+
+.navdet {
+    font-size: 35px;
+    min-height: 200px;
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: #2C2208;
+    font-size: large;
+}
+
+li a {
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+}
+
+.on {
+    display: block;
+
+}
+
+.off {
+    display: none;
+    font-family: 'sans-serif';
+}
+
+
+#clicked:target .on {
+    display: none;
+}
+
+#clicked:target .off {
+    display: block;
+
+}
+
+#clicked:target nav {
+    display: block;
+}
+
+.topcenter {
+    float: none;
+    position: relative;
+    font-size: 25px;
+    top: 0px;
+    width: 0%;
+    left: 0%;
+    text-decoration: underline;
+}
+
+.topcenter2 {
+    float: none;
+    position: relative;
+    font-size: 25px;
+    top: 0px;
+    width: 0%;
+    left: 0%;
+    text-decoration: underline;
+}
+
+.topcenter3 {
+    float: none;
+    position: relative;
+    font-size: 25px;
+    top: 0px;
+    width: 0%;
+    left: 0%;
+    text-decoration: underline;
+}
+
+.topcenter4 {
+    float: none;
+    position: relative;
+    font-size: 25px;
+    top: 0px;
+    width: 0%;
+    left: 0%;
+    text-decoration: underline;
+}
+
+.topcenter5 {
+    float: none;
+    position: relative;
+    font-size: 25px;
+    top: 0px;
+    width: 0%;
+    left: 0%;
+    text-decoration: underline;
+}
+
+main {
+    grid-area: main;
+    width: auto;
+    height: auto;
+}
+
+/* Index */
+.luffyposter {
+    position: relative;
+    width: 150px;
+    border-radius: 45px;
+    top: 0px;
+    float: left;
+    left: -8px;
+    height: 50%;
+    padding: 5%;
+}
+
+.name {
+    top: 0px;
+    font-size: 20px;
+}
+
+.text {
+
+    top: -10px;
+    font-size: 19px;
+}
+
+/* Portfolio */
+
+.portfolio-HTML-CSS {
+    top: 1000px;
+    width: 400px;
+    display: block;
+    height: 150px;
+    margin: 8px;
+    float: left;
+}
+
+.HTMLPic {
+    font-size: 15px;
+}
+
+.Two {
+    font-size: 20px;
+}
+
+footer {
+    grid-area: footer;
+
+    bottom: auto;
+    color: black;
+    position: relative;
+    font-size: 20px;
+    left: 0px;
+    top: 325px;
+}
+
+/* Contact */
+
+.contact {
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    position: relative;
+    top: 375px;
+    width: 60px;
+    min-height: 50px;
+    height: 60px;
+    display: flex;
+    float: left;
+    left: 50px;
+}
+
+.logos {
+    position: relative;
+    top: 50px;
+}
+
+.textlogo {
+    position: relative;
+    float: left;
+    top: 100px;
+    width: 100px;
+    left: 75px;
+}
+
+.h4 {
+    position: relative;
+    font-family: 'Pirata One';
+    top: 390px;
+    left: 42px;
+    min-height: 400px;
+    height: 400px;
+    font-size: 45px;
+}
+
+.contactform {
+    position: relative;
+    left: -250px;
+    top: -170px;
+    height: 10px;
+    float: right;
+    text-align: center;
+    width: 10%;
+
+}
+
+.h3 {
+    font-family: 'Pirata One';
+    position: relative;
+    font-size: 25px;
+    left: 45px;
+    text-align: center;
+}
+
+.span {
+    font-size: 15px;
+}
+
+
+.input {
+    top: 0px;
+    min-height: 40px;
+    height: 120px;
+}
+
+/* Blog */
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: none;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: none;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+#rcorners3 {
+    position: relative;
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: none;
+    top: 0px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+#rcorners4 {
+    position: relative;
+    border-radius: 25px;
+    background: #F5DBC3;
+    float: none;
+    top: 0px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+
+
+.copy {
+    font-size: 11px;
+}
+
+.h2 {
+    position: relative;
+    font-size: 25px;
+    font-family: 'Pirata One';
+    text-decoration: underline;
+    top: -150px;
+}
